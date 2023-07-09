@@ -1,0 +1,27 @@
+{
+    "development":{
+        "username":"postgres",
+        "password":"Dark1519**-",
+        "database":"monigue_data",
+        "host":"localhost",
+        "dialect":"postgres",
+        "PORT":5432,
+        "logging":false
+    },
+    "test":{
+        "username":"postgres",
+        "password":"Dark1519**-",
+        "database":"monigue_data",
+        "host":"localhost",
+        "dialect":"postgres",
+        "PORT":5432
+    },
+    "production":{
+        "username":"postgres",
+        "password":"Dark1519**-",
+        "database":"monigue_data",
+        "host":"localhost",
+        "dialect":"postgres",
+        "PORT":5432
+    }
+}

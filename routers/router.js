@@ -1,11 +1,12 @@
 const express = require("express");
 const auth = require("./authorization");
-const users = require("./users");
+const sign = require("./sign");
+const { getAccessToRoute } = require("../middlewares/authorization/auth");
 
 // ' /api ' is this here 
 const router = express.Router();
 
-router.use("/auth", auth);
-router.use("/users", users);
+router.use("/auth",getAccessToRoute ,auth);
+router.use("/sign", sign);
 
 module.exports = router;
