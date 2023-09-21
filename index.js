@@ -19,6 +19,7 @@ app.use(
     })
 )
 
+console.log(`123`)
 
 app.use("/api", routers);
 
